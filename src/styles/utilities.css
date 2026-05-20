@@ -1,0 +1,46 @@
+@utility text-display-2xl {
+  font-size: var(--text-display-2xl);
+  line-height: var(--text-display-2xl--line-height);
+  letter-spacing: var(--text-display-2xl--letter-spacing);
+}
+
+@utility text-display-xl {
+  font-size: var(--text-display-xl);
+  line-height: var(--text-display-xl--line-height);
+  letter-spacing: var(--text-display-xl--letter-spacing);
+}
+
+@utility text-display-lg {
+  font-size: var(--text-display-lg);
+  line-height: var(--text-display-lg--line-height);
+  letter-spacing: var(--text-display-lg--letter-spacing);
+}
+
+@utility text-heading-lg {
+  font-size: var(--text-heading-lg);
+  line-height: var(--text-heading-lg--line-height);
+}
+
+@utility text-body-lg {
+  font-size: var(--text-body-lg);
+  line-height: var(--text-body-lg--line-height);
+}
+
+@utility text-body-sm {
+  font-size: var(--text-body-sm);
+  line-height: var(--text-body-sm--line-height);
+}
+
+@utility text-caption {
+  font-size: var(--text-caption);
+  line-height: var(--text-caption--line-height);
+  letter-spacing: var(--text-caption--letter-spacing);
+}
+
+@utility font-mono-label {
+  font-family: var(--font-mono);
+}
+
+@utility section-divider {
+  border-top: 1px solid var(--color-border);
+}
