@@ -32,7 +32,6 @@ export function Heading({
   return (
     <Tag
       className={cn(
-        "text-foreground",
         displaySizes[size],
         emphasis === "title" && weight,
         className,

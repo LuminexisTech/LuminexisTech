@@ -34,7 +34,7 @@ export function Mission() {
   );
 
   return (
-    <section ref={sectionRef} className="bg-inverse text-inverse-foreground overflow-hidden pt-16 sm:pt-24 lg:pt-32 pb-0">
+    <section ref={sectionRef} className="dark bg-inverse text-foreground overflow-hidden pt-16 sm:pt-24 lg:pt-32 pb-0">
       <div className="ds-container grid items-end gap-12 lg:grid-cols-[1.2fr_1fr] lg:gap-16 pb-0">
         <div className="relative w-full h-[60vh] lg:h-[80vh] flex items-end justify-center lg:-ml-24">
           <ImmersivePortrait
@@ -51,15 +51,15 @@ export function Mission() {
           animate={inView ? { opacity: 1 } : {}}
           className="max-w-lg pb-16 sm:pb-24 lg:pb-32 z-10"
         >
-          <p className="mission-reveal ds-label mb-6 text-white/60">Our Mission</p>
-          <Heading className="mission-reveal !text-white" size="xl">
+          <p className="mission-reveal ds-label mb-6">Our Mission</p>
+          <Heading className="mission-reveal" size="xl">
             Human technology, not clinical hardware.
           </Heading>
-          <Text variant="body-lg" className="mission-reveal mt-6 !text-white/80">
+          <Text variant="body-lg" className="mission-reveal mt-6">
             Twelve million blind Indians deserve assistive technology built for their roads,
             their languages, and their dignity.
           </Text>
-          <Text variant="body-sm" className="mission-reveal mt-4 !text-white/60">
+          <Text variant="body-sm" className="mission-reveal mt-4 text-muted-foreground">
             Luminexis is standalone, offline-capable, and designed to be worn with pride.
             Join the waitlist to be first when we launch.
           </Text>
