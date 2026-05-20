@@ -1,4 +1,3 @@
-import { CurvedLoopBand } from "@/components/CurvedLoopBand";
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { Pillars } from "@/components/Pillars";
@@ -13,7 +12,6 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
-        <CurvedLoopBand />
         <Pillars />
         <Products />
         <Values />
