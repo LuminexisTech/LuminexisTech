@@ -1,7 +1,16 @@
-export { Badge, type BadgeProps } from "./badge";
-export { Button, type ButtonProps } from "./button";
-export { Card, type CardProps } from "./card";
+export { Badge, badgeVariants } from "./badge";
+export { Button, buttonVariants } from "./button";
+export {
+  Card,
+  CardAction,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "./card";
 export { Container, type ContainerProps } from "./container";
-export { Input, type InputProps } from "./input";
+export { Input } from "./input";
+export { Separator } from "./separator";
 export { Section, type SectionProps } from "./section";
 export { Heading, Text, type HeadingProps, type TextProps } from "./typography";

@@ -4,6 +4,15 @@ export const DESCRIPTION =
 
 export const BRAND_LINE = "Built from Kerala. Built for India.";
 
+/** Phrases shown in the curved marquee band between major sections */
+export const LOOP_BAND_PHRASES = [
+  "Guide · Protect · Empower",
+  "Walk freely · Live independently",
+  "Built for India",
+  "Dignity by design",
+  "Offline-first · Phone-free",
+] as const;
+
 export const PILLARS = [
   {
     id: "guide",

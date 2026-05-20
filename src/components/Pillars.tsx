@@ -2,7 +2,7 @@
 
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import { Heading, Section, Text } from "@/components/ui";
+import { Card, CardContent, Heading, Section, Text } from "@/components/ui";
 import { PILLARS } from "@/lib/constants";
 
 export function Pillars() {
@@ -32,18 +32,22 @@ export function Pillars() {
               initial={{ opacity: 0, y: 12 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: 0.06 + i * 0.05, duration: 0.45 }}
-              className="ds-card"
+              className="h-full"
             >
-              <p className="ds-label-accent">{pillar.label}</p>
-              <Heading as="h3" size="lg" emphasis="title" className="mt-4">
-                {pillar.title}
-              </Heading>
-              <Text variant="body-sm" className="mt-3 text-muted-foreground">
-                {pillar.detail}
-              </Text>
-              <p className="mt-6 border-t border-border pt-4 text-body-sm font-medium text-foreground">
-                {pillar.product}
-              </p>
+              <Card className="h-full shadow-none">
+                <CardContent className="flex flex-col">
+                  <p className="ds-label-accent">{pillar.label}</p>
+                  <Heading as="h3" size="lg" emphasis="title" className="mt-4">
+                    {pillar.title}
+                  </Heading>
+                  <Text variant="body-sm" className="mt-3 text-muted-foreground">
+                    {pillar.detail}
+                  </Text>
+                  <p className="mt-6 border-t border-border pt-4 text-body-sm font-medium text-foreground">
+                    {pillar.product}
+                  </p>
+                </CardContent>
+              </Card>
             </motion.article>
           ))}
         </div>
