@@ -34,29 +34,32 @@ export function Mission() {
   );
 
   return (
-    <section ref={sectionRef} className="bg-inverse text-inverse-foreground">
-      <div className="ds-container grid items-center gap-12 py-16 sm:py-24 lg:grid-cols-2 lg:gap-20 lg:py-28">
-        <ImmersivePortrait
-          src="/images/hero-portrait.png"
-          alt="Person representing confidence and independence with Luminexis"
-          variant="dark"
-        />
+    <section ref={sectionRef} className="bg-inverse text-inverse-foreground overflow-hidden pt-16 sm:pt-24 lg:pt-32 pb-0">
+      <div className="ds-container grid items-end gap-12 lg:grid-cols-[1.2fr_1fr] lg:gap-16 pb-0">
+        <div className="relative w-full h-[60vh] lg:h-[80vh] flex items-end justify-center lg:-ml-24">
+          <ImmersivePortrait
+            src="/images/hero-portrait.png"
+            alt="Person representing confidence and independence with Luminexis"
+            variant="dark"
+            className="!max-w-none w-[115%] lg:w-[130%] !aspect-auto h-full"
+          />
+        </div>
 
         <motion.div
           ref={textRef}
           initial={{ opacity: 0 }}
           animate={inView ? { opacity: 1 } : {}}
-          className="max-w-lg"
+          className="max-w-lg pb-16 sm:pb-24 lg:pb-32 z-10"
         >
-          <p className="mission-reveal ds-label mb-6 !text-inverse-subtle">Our Mission</p>
-          <Heading className="mission-reveal text-inverse-foreground" size="xl">
+          <p className="mission-reveal ds-label mb-6 text-white/60">Our Mission</p>
+          <Heading className="mission-reveal !text-white" size="xl">
             Human technology, not clinical hardware.
           </Heading>
-          <Text variant="body-lg" className="mission-reveal mt-6 text-inverse-muted">
+          <Text variant="body-lg" className="mission-reveal mt-6 !text-white/80">
             Twelve million blind Indians deserve assistive technology built for their roads,
             their languages, and their dignity.
           </Text>
-          <Text variant="body-sm" className="mission-reveal mt-4 text-inverse-subtle">
+          <Text variant="body-sm" className="mission-reveal mt-4 !text-white/60">
             Luminexis is standalone, offline-capable, and designed to be worn with pride.
             Join the waitlist to be first when we launch.
           </Text>
