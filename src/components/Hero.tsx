@@ -27,9 +27,9 @@ export function Hero() {
   );
 
   return (
-    <section className="bg-surface pt-16 sm:pt-20">
-      <div className="ds-container grid items-center gap-12 pb-16 lg:grid-cols-2 lg:gap-16 lg:pb-24">
-        <div ref={copyRef} className="order-2 max-w-lg lg:order-1">
+    <section className="bg-surface pt-16 sm:pt-20 lg:pt-28 overflow-hidden pb-0">
+      <div className="ds-container grid items-end gap-12 lg:grid-cols-[1fr_1.2fr] lg:gap-16 pb-0">
+        <div ref={copyRef} className="order-2 max-w-lg lg:order-1 pb-16 lg:pb-24 z-10">
           <p className="ds-label mb-8">Assistive Wearables</p>
 
           <Heading as="h1" size="2xl">
@@ -55,12 +55,13 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="order-1 lg:order-2">
+        <div className="order-1 lg:order-2 relative w-full h-[50vh] lg:h-[75vh] flex items-end justify-center lg:-mr-24">
           <ImmersivePortrait
             src="/images/hero-wearables.png"
             alt="Person wearing Luminexis smart glasses, earbud, and wristband"
             variant="light"
             priority
+            className="!max-w-none w-[115%] lg:w-[125%] !aspect-auto h-full"
           />
         </div>
       </div>
