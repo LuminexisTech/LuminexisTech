@@ -1,74 +1,332 @@
-# Luminexis — Coming Soon
+````md
+# Luminexis
 
-Landing page for **Luminexis**, a smart wearable company empowering people with vision and hearing loss.
+<div align="center">
 
-**Tagline:** Walk freely. Live independently.
+### Intelligence That Restores Independence
 
-## Stack
+**Walk Freely. Live Independently.**
 
-- [Next.js](https://nextjs.org/) 15 (App Router)
-- [Tailwind CSS](https://tailwindcss.com/) 4.3 (design tokens + component layer)
-- [Framer Motion](https://www.framer.com/motion/) — UI entrance & scroll animations
-- [GSAP](https://gsap.com/) + ScrollTrigger — hero & mission reveals
+Building the next generation of AI-powered assistive wearables for people with vision, hearing, speech, and combined sensory impairments.
 
-## Getting started
+</div>
+
+---
+
+## About Luminexis
+
+Luminexis is an assistive technology company developing AI-powered wearable systems designed to improve independence, safety, mobility, communication, and accessibility.
+
+Our mission is to create intelligent wearable technologies that help people navigate the world confidently without depending on smartphones, cloud connectivity, or external devices.
+
+We believe assistive technology should be:
+
+- Intelligent
+- Reliable
+- Private
+- Affordable
+- Always Available
+
+---
+
+# Vision
+
+More than one billion people worldwide live with some form of disability.
+
+Most assistive technologies solve only one problem at a time.
+
+Luminexis is building an integrated ecosystem where navigation, communication, hearing assistance, environmental awareness, and AI intelligence work together in a single platform.
+
+Our goal is to become the global leader in AI-powered assistive wearables.
+
+---
+
+# Product Ecosystem
+
+## Smart Glasses
+
+### The World's First Standalone AI Assistive Glasses
+
+Unlike traditional assistive devices that rely on smartphones and cloud services, Luminexis Smart Glasses contain an entire AI system within the frame itself.
+
+### Features
+
+- Real-time object detection
+- Obstacle recognition
+- Depth estimation
+- GPS navigation
+- Environmental understanding
+- Voice guidance
+- Offline AI processing
+- Open-ear audio delivery
+
+### Why It Matters
+
+The system continuously analyzes surroundings and provides real-time assistance without requiring:
+
+❌ Smartphone
+
+❌ Internet
+
+❌ Cloud Processing
+
+✅ Fully Standalone AI
+
+---
+
+## Predictive Hazard Detection
+
+Luminexis doesn't simply describe what exists around the user.
+
+It predicts what could become dangerous before the user reaches it.
+
+### Detects
+
+- Open drains
+- Ground drops
+- Potholes
+- Stairs
+- Uneven pathways
+- Sudden elevation changes
+- Surface hazards
+
+Advanced multi-frame validation reduces false warnings while maximizing user safety.
+
+---
+
+## Smart Glasses with Hearing Assistance
+
+### Two Essential Senses. One Device.
+
+Luminexis integrates intelligent hearing assistance directly into the glasses platform.
+
+### Built-In Technologies
+
+- Beamforming microphones
+- AI audio enhancement
+- Speech isolation
+- Noise reduction
+- Open-ear speakers
+- Context-aware audio processing
+
+### Benefits
+
+- Amplifies conversations
+- Reduces environmental noise
+- Delivers navigation instructions clearly
+- Maintains situational awareness
+
+The system understands context instead of simply increasing volume.
+
+---
+
+## Smart Band
+
+### Built for Deaf-Blind Accessibility
+
+The Luminexis Smart Band provides environmental awareness through intelligent haptic communication.
+
+### Core Features
+
+- 12-code vibration language
+- Triple haptic motor system
+- Directional alerts
+- Hazard notifications
+- Surface awareness
+- Navigation assistance
+
+Information is delivered through touch alone.
+
+---
+
+## Ground Awareness System
+
+The Smart Band complements the Smart Glasses by monitoring the exact area where the user's next step will land.
+
+### Sensor Array
+
+- Ultrasonic Sensor
+- Infrared Sensor
+- Laser Distance Sensor
+
+### Detects
+
+- Holes
+- Wet surfaces
+- Staircases
+- Ground drops
+- Uneven terrain
+
+Together with the glasses, it creates a comprehensive awareness system.
+
+---
+
+## Fall Detection & Emergency Alerts
+
+The Smart Band continuously monitors movement using advanced motion analysis.
+
+### Safety Features
+
+- Fall detection
+- Emergency alerts
+- Automatic notifications
+- Location sharing
+- Real-time monitoring
+
+Protection begins automatically without requiring user interaction.
+
+---
+
+## NeuraSpeech
+
+### Thought-to-Speech Communication
+
+NeuraSpeech is Luminexis' next-generation Brain-Computer Interface (BCI) initiative.
+
+The platform explores non-invasive EEG-based communication systems capable of translating neural activity into meaningful speech output.
+
+### Long-Term Vision
+
+Allow users to communicate through intentional neural signals alone.
+
+### Principles
+
+- Personalized AI models
+- On-device processing
+- User-owned data
+- Private by design
+- Adaptive learning
+
+Communication should never be limited by physical ability.
+
+---
+
+# Technology Areas
+
+Luminexis combines multiple advanced technologies:
+
+## Artificial Intelligence
+
+- Machine Learning
+- Deep Learning
+- Edge AI
+- Computer Vision
+- Speech Processing
+
+## Hardware Systems
+
+- Embedded Electronics
+- Sensor Fusion
+- Wearable Computing
+- Smart Sensors
+- Audio Systems
+
+## Research Domains
+
+- Accessibility Engineering
+- Human Computer Interaction
+- Brain Computer Interfaces
+- Assistive Technologies
+- Edge Computing
+
+---
+
+# Core Principles
+
+## Independence First
+
+Technology should increase personal freedom and confidence.
+
+## Privacy by Design
+
+User data belongs to the user.
+
+## Offline Intelligence
+
+Critical assistive functions must work without internet connectivity.
+
+## Accessibility for Everyone
+
+Advanced assistive technology should be affordable and accessible.
+
+---
+
+# Future Roadmap
+
+- Smart Glasses Platform
+- Integrated Hearing Assistance
+- Smart Band Ecosystem
+- AI Navigation Suite
+- Emergency Safety Network
+- NeuraSpeech BCI System
+- Multi-Language Support
+- Global Accessibility Expansion
+
+---
+
+# Development
 
 ```bash
+git clone https://github.com/your-org/luminexis.git
+
+cd luminexis
+
 npm install
+
 npm run dev
-```
+````
 
-### `Cannot find module './611.js'` (or similar)
-
-This means the `.next` build cache is stale or corrupted (often after an interrupted build or running `dev` and `build` at the same time). Fix it with a clean rebuild:
+Open:
 
 ```bash
-npm run dev:fresh
+http://localhost:3000
 ```
 
-Or for production:
+---
 
-```bash
-npm run rebuild
-npm start
+# Technology Stack
+
+### Frontend
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* Framer Motion
+* GSAP
+
+### AI & Embedded Systems
+
+* Computer Vision
+* Edge AI
+* Sensor Fusion
+* Embedded Linux
+* Audio Processing
+
+---
+
+# Mission
+
+We are building a future where:
+
+* Blind individuals navigate independently.
+* Deaf individuals hear conversations clearly.
+* Deaf-blind individuals understand their surroundings.
+* Non-verbal individuals communicate freely.
+
+Technology should remove barriers, not create them.
+
+---
+
+<div align="center">
+
+## Luminexis
+
+### Walk Freely. Live Independently.
+
+Building the Future of Assistive Intelligence.
+
+© 2026 Luminexis. All Rights Reserved.
+
+</div>
 ```
-
-Open [http://localhost:3000](http://localhost:3000).
-
-## Build
-
-```bash
-npm run build
-npm start
-```
-
-## Design system
-
-Tokens and primitives live under `src/styles/` and `src/components/ui/`:
-
-| File | Purpose |
-|------|---------|
-| `src/styles/tokens.css` | `@theme` colors, type scale, radius, shadows, motion |
-| `src/styles/utilities.css` | Custom `@utility` classes (`text-display-xl`, `bg-hero-gradient`, …) |
-| `src/styles/components.css` | `ds-*` component classes (buttons, pills, cards, layout) |
-| `src/components/ui/` | React primitives (`Badge`, `Button`, `Card`, `Heading`, …) |
-
-Use semantic tokens in JSX: `bg-background`, `text-foreground`, `text-muted-foreground`, `bg-primary`, `border-border`.
-
-Brand aliases remain available: `canvas`, `ink`, `accent`, `sky`.
-
-## Project structure
-
-```
-src/
-  app/          # Layout, globals, home page
-  styles/       # Tailwind v4 design system (tokens, utilities, components)
-  components/   # Page sections + ui/ primitives
-  lib/          # cn(), constants, GSAP helpers
-public/
-  images/       # Hero photography assets
-```
-
-## Deploy
-
-Deploy to [Vercel](https://vercel.com) or any Node host that supports Next.js. No environment variables required for the static coming-soon page.
